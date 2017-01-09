@@ -33,9 +33,9 @@ Check the given folder in Hue File Browser
 2. MapReduce
 
 Use code in the folder mapreducesrc. You can use eclipse provided in Cloudera Quickstart VM. 
-1. The output files from flume, which is in JSON format will be given to map method as JSON object in string(Text) format. This is done by setting the input class to MultiLineJsonInputFormat.class
 
-Reference - https://github.com/alexholmes/json-mapreduce
+1. The output files from flume, which is in JSON format will be given to map method as JSON object in string(Text) format. This is done by setting the input class to MultiLineJsonInputFormat.class
+  Reference - https://github.com/alexholmes/json-mapreduce
 
 2. The sentimental  analysis is done using AFINN Dictionary. The words and corresponding score of AFINN is stored in HashMap. Each word in the tweet (except for stop words) will be checked for the words in HashMap. The scores will be added and the final sum determines if the sentiment is positive or negative.
 
